@@ -22,13 +22,21 @@ Python
 # Dia 3
 Web
 1) Presentación de conceptos basicos de HTML: la estructura de una pagina, etc.
-2) Introducción a Javascript (con comparación a las operaciones de Python)
-3) Presentación de otros recursos (librerias, technologias, etc).
-4) Introducción a CSS 
+2) Introducción a HTML formas
+3) Introducción a Javascript (con comparación a las operaciones de Python)
+4) Continuación de Javascript (query selector, etc., una actividad que cambia el color del fondo)
 
 # Dia 4
 Web
-1) Presentación: Incorporación de los gráficos de Python con HTML en Jupyter
-2) Proyecto: preparación de gráficos/sitios de web para presentar a los otros clubes?
+1) Presentación/revisión: más operaciones/practica con Javascript (continuando la comparación con Python)
+2) Presentación: Introducción a CSS 
+3) Presentación: Incorporación de los gráficos de Python con HTML en Jupyter
+4) Actividad: generación de un juego sencillo (por ejemplo el juego aquí https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/A_first_splash podemos introducir el concepto de 
+búsqueda binaria)
+5) (Opcional) Presentación de otros recursos (librerias, technologias, etc).
+
+# Dia 5
+Web + Python
+1) Proyecto: preparación de gráficos/sitios de web para presentar a los otros clubes?
+2) Continuación del proyecto?
 3) Continuación del proyecto?
-4) Continuación del proyecto?
