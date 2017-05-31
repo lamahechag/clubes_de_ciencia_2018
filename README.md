@@ -21,6 +21,10 @@ Python
 
 # Dia 3
 Web
+1) Presentación de conceptos basicos de HTML: la estructura de una pagina, etc.
+2) Introducción a Javascript (con comparación a las operaciones de Python)
+3) Presentación de otros recursos (librerias, technologias, etc).
+4) Introducción a CSS 
 
 # Dia 4
 Web
