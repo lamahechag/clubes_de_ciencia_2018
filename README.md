@@ -29,4 +29,4 @@ Web
 # Dia 4
 Web
 1) Presentación: Incorporación de los gráficos de Python con HTML en Jupyter
-2-4) Proyecto: preparación de gráficos/sitios de web para presentar a los otros clubes?
+2)-4) Proyecto: preparación de gráficos/sitios de web para presentar a los otros clubes?
