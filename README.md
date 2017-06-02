@@ -10,7 +10,9 @@ Python
 1) Presentación: Que es la programación, las ciencias de la computación y para que sirven.
 2) Presentacion de Python y Jupyter Notebook.
 3) Opreaciones Matematicas en el notebook y conceptos de variables.
-4) Librerias y operaciones IF, FOR, WHILE.
+4) Listas, tuplas y diccionarios
+5) Condicionales
+6) FOR y WHILE.
 
 # Dia 2
 Python
