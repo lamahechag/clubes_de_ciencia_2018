@@ -1,13 +1,13 @@
 # clube de ciencia de ciencias de la computación
 
-Material para el clubde ciencia 2017 : Construye tu sitio web con herramientas computacionales.
+Material para el club de ciencia 2017 : Construye tu sitio web con herramientas computacionales.
 
 # Materiales
 Servidor de Amazon con python y Jupyter notebook de acceso remoto.
 
 # Dia 1
 Python
-1) Presentación: Que es la programacion y las ciencias de la computacion y para que sirven.
+1) Presentación: Que es la programación, las ciencias de la computación y para que sirven.
 2) Presentacion de Python y Jupyter Notebook.
 3) Opreaciones Matematicas en el notebook y conceptos de variables.
 4) Librerias y operaciones IF, FOR, WHILE.
