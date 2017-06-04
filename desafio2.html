@@ -7,7 +7,7 @@
 
 <h1>Juego: Adivinando el número</h1>
 
-<p>Hemos selectado un numero entre 1 y 100. ¿Puedes adivinar este número en menos de 10 intentos?</p>
+<p>Hemos seleccionado un número entre 1 y 100. ¿Puedes adivinar el número en menos de 10 intentos?</p>
 
 <div class="form">
   <label for="porIntento">Adivina aquí: </label><input type="text" class="intento">
@@ -41,18 +41,18 @@
     intentos.textContent += adivinanza + ' ';
    
     if (adivinanza === numeroAleatorio) {
-      textoResultado.textContent = '¡Felicitaciones! Lo tienes bien. Vuelva a cargar la página para empezar de nuevo.';
+      textoResultado.textContent = '¡Felicitaciones! ¡Lo lograste! Refresca la pagina para volver a jugar.';
       textoResultado.style.backgroundColor = 'green'; // verde
       terminarJuego();
     } else if (cuentaDeAdivinanzas === 10) {
-      textoResultado.textContent = '¡JUEGO TERMINADO! Vuelva a cargar la página para empezar de nuevo.';
+      textoResultado.textContent = '¡GAME OVER! Refresca la página para intentar de nuevo.';
       terminarJuego();
     } else {
       textoResultado.style.backgroundColor = 'red'; // rojo
       if(adivinanza < numeroAleatorio) {
-        textoResultado.textContent = 'La última intenta era demasiada baja!';
+        textoResultado.textContent = 'El nùmero correcto es > tu último intento';
       } else if(adivinanza > numeroAleatorio) {
-        textoResultado.textContent = 'La última intenta era demasiada alta!';
+        textoResultado.textContent = 'El nùmero correcto es < tu último intento';
       }
     }
    
