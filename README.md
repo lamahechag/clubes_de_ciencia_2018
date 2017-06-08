@@ -31,8 +31,7 @@ Web
 # Dia 4
 Web
 1) Presentación/revisión: más operaciones/practica con Javascript (continuando la comparación con Python)
-2) Presentación: Introducción a CSS 
-3) Actividad: generación de un juego sencillo
+2-3) Actividad: generación de un juego sencillo
   (por ejemplo el juego aquí https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/A_first_splash podemos introducir el concepto de búsqueda binaria)
 4) Presentación: Incorporación de los gráficos de Python con HTML en Jupyter
 5) (Opcional) Presentación de otros recursos (librerias, technologias, etc).
