@@ -4,6 +4,8 @@ Material para el club de ciencia 2017 : Construye tu sitio web con herramientas 
 
 # Materiales
 Servidor de Amazon con python y Jupyter notebook de acceso remoto.
+http://34.211.110.189:8888/login
+password:clubes2017
 
 # Dia 1
 Python
