@@ -1,4 +1,4 @@
-# clube de ciencia de ciencias de la computación
+# Club de ciencia de ciencias de la computación
 
 Material para el club de ciencia 2017 : Construye tu sitio web con herramientas computacionales.
 
