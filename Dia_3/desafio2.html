@@ -11,12 +11,14 @@
 <p class="textoCuerpo">El cuerpo</p>
 
 <div>
-  <label>Texto del título: </label><input type="text" class="nuevoTextoTitulo">
+  <label>Texto del título: </label>
+  <input type="text" class="nuevoTextoTitulo">
   <input type="submit" value="Enviar" class="enviarTitulo">
 </div>
 
 <div>
-  <label>Texto del cuerpo: </label><input type="text" class="nuevoTextoCuerpo">
+  <label>Texto del cuerpo: </label>
+  <input type="text" class="nuevoTextoCuerpo">
   <input type="submit" value="Enviar" class="enviarCuerpo">
 </div>
 
@@ -30,7 +32,7 @@
   var nuevoTextoCuerpo = document.querySelector('.nuevoTextoCuerpo');
   var enviarCuerpo = document.querySelector('.enviarCuerpo');
 
-  // Declaraciones de funcionas
+  // Declaraciones de funciones
   function cambiarTitulo() {
   	textoTitulo.textContent = nuevoTextoTitulo.value;
   }
@@ -39,7 +41,7 @@
   	textoCuerpo.textContent = nuevoTextoCuerpo.value;
   }
 
-  // Indica cuál funciona activa cuando se hace clic en un botón
+  // Indica cuál función activa cuando se hace clic en un botón
   enviarTitulo.addEventListener('click', cambiarTitulo); 
   enviarCuerpo.addEventListener('click', cambiarCuerpo);
 </script>

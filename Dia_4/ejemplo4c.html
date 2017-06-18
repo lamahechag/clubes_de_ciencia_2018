@@ -40,7 +40,7 @@
 
   var cuentaDeAdivinanzas = 1;
 
-  // Declaración de funciona para el juego
+  // Declaración de función para el juego
   function comprobarAdivinanza(boton, letra) {
     boton.disabled = true;
 
@@ -65,10 +65,10 @@
     cuentaDeAdivinanzas++;
   }
 
-  // Indica cuál funciona activa cuando se hace clic en el botón
+  // Indica cuál función activa cuando se hace clic en el botón
   enviarA.addEventListener('click', function() {comprobarAdivinanza(enviarA, 'A')})
 
-  // Declaración de funciona que activa al fin del juego
+  // Declaración de función que se activa al fin del juego
   function terminarJuego() {
     enviarA.disabled = true;
   }

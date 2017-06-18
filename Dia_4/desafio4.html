@@ -11,7 +11,8 @@
 <p>Hemos seleccionado un número entre 1 y 100. ¿Puedes adivinar el número en menos de 10 intentos?</p>
 
 <div class="form">
-  <label for="porIntento">Adivina aquí: </label><input type="text" class="intento">
+  <label for="porIntento">Adivina aquí: </label>
+  <input type="text" class="intento">
   <input type="submit" value="Enviar" class="enviarIntento">
 </div>
 
@@ -22,7 +23,6 @@
 
 <script>
   // Declaración de variables
-
   var numeroAleatorio = Math.floor(Math.random() * 100) + 1;
 
   var enviarIntento = document.querySelector('.enviarIntento');
@@ -33,7 +33,7 @@
 
   var cuentaDeAdivinanzas = 1;
 
-  // Declaración de funciona para el juego
+  // Declaración de función para el juego
   function comprobarAdivinanza() {
     var adivinanza = Number(intento.value);
     if (cuentaDeAdivinanzas === 1) {
@@ -63,10 +63,10 @@
   }
 
 
-  // Indica cuál funciona activa cuando se hace clic en el botón
+  // Indica cuál función activa cuando se hace clic en el botón
   enviarIntento.addEventListener('click', comprobarAdivinanza)
 
-  // Declaración de funciona que activa al fin del juego
+  // Declaración de función que se activa al fin del juego
   function terminarJuego() {
     intento.disabled = true;
     enviarIntento.disabled = true;
