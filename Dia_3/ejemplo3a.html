@@ -20,25 +20,25 @@
 <script>
   // Declaraciones de variables
 
-  var textoTitulo = document.querySelector('.textoTitulo')
-  var nuevoTextoTitulo = document.querySelector('.nuevoTextoTitulo')
-  var enviarTitulo = document.querySelector('.enviarTitulo')
+  var textoTitulo = document.querySelector('.textoTitulo');
+  var nuevoTextoTitulo = document.querySelector('.nuevoTextoTitulo');
+  var enviarTitulo = document.querySelector('.enviarTitulo');
 
-  var enviarTextoTituloRojo = document.querySelector('.enviarTextoTituloRojo')
+  var enviarTextoTituloRojo = document.querySelector('.enviarTextoTituloRojo');
 
   // Declaraciones de funcionas
   function cambiarTitulo() {
-    textoTitulo.textContent = nuevoTextoTitulo.value
+    textoTitulo.textContent = nuevoTextoTitulo.value;
   }
 
   function cambiarColorTextoTitulo(color) {
-    textoTitulo.style.color = color
+    textoTitulo.style.color = color;
   }
 
   // Indica cuál funciona activa cuando se hace clic en un botón
-  enviarTitulo.addEventListener('click', cambiarTitulo) 
+  enviarTitulo.addEventListener('click', cambiarTitulo);
 
-  enviarTextoTituloRojo.addEventListener('click', function() {cambiarColorTextoTitulo('red')})
+  enviarTextoTituloRojo.addEventListener('click', function() {cambiarColorTextoTitulo('red')});
 </script>
 
 </body>

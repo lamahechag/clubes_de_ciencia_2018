@@ -22,27 +22,26 @@
 
 <script>
   // Declaraciones de variables
+  var textoTitulo = document.querySelector('.textoTitulo');
+  var nuevoTextoTitulo = document.querySelector('.nuevoTextoTitulo');
+  var enviarTitulo = document.querySelector('.enviarTitulo');
 
-  var textoTitulo = document.querySelector('.textoTitulo')
-  var nuevoTextoTitulo = document.querySelector('.nuevoTextoTitulo')
-  var enviarTitulo = document.querySelector('.enviarTitulo')
-
-  var textoCuerpo = document.querySelector('.textoCuerpo')
-  var nuevoTextoCuerpo = document.querySelector('.nuevoTextoCuerpo')
-  var enviarCuerpo = document.querySelector('.enviarCuerpo')
+  var textoCuerpo = document.querySelector('.textoCuerpo');
+  var nuevoTextoCuerpo = document.querySelector('.nuevoTextoCuerpo');
+  var enviarCuerpo = document.querySelector('.enviarCuerpo');
 
   // Declaraciones de funcionas
   function cambiarTitulo() {
-  	textoTitulo.textContent = nuevoTextoTitulo.value
+  	textoTitulo.textContent = nuevoTextoTitulo.value;
   }
 
   function cambiarCuerpo() {
-  	textoCuerpo.textContent = nuevoTextoCuerpo.value
+  	textoCuerpo.textContent = nuevoTextoCuerpo.value;
   }
 
   // Indica cuál funciona activa cuando se hace clic en un botón
-  enviarTitulo.addEventListener('click', cambiarTitulo) 
-  enviarCuerpo.addEventListener('click', cambiarCuerpo)
+  enviarTitulo.addEventListener('click', cambiarTitulo); 
+  enviarCuerpo.addEventListener('click', cambiarCuerpo);
 </script>
 
 </body>

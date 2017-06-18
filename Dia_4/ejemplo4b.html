@@ -23,10 +23,10 @@
 
 <script>
   // Declaración de variables
-  var palabras = ['Hola', 'Colombia', 'Clubes', 'Ciencias', 'Javascript']
+  var palabras = ['Hola', 'Colombia', 'Clubes', 'Ciencias', 'Javascript'];
   var numeroAleatorio = Math.floor(Math.random() * palabras.length);
-  var palabraAleatorio = palabras[numeroAleatorio]
-  console.log(palabraAleatorio)
+  var palabraAleatorio = palabras[numeroAleatorio];
+  console.log(palabraAleatorio);
 
   var enviarA = document.querySelector('.enviarA');
   var enviarB = document.querySelector('.enviarB');
@@ -34,11 +34,11 @@
   var enviarD = document.querySelector('.enviarD');
 
   var textoResultado = document.querySelector('.textoResultado');
-  var resultadoActual = ''
+  var resultadoActual = '';
   for (var i = 0; i < palabraAleatorio.length; i++) {
     resultadoActual += '#';
   }
-  textoResultado.textContent = resultadoActual
+  textoResultado.textContent = resultadoActual;
 
   var cuentaDeAdivinanzas = 1;
 
@@ -49,11 +49,11 @@
     if (palabraAleatorio.toLowerCase().includes(letra.toLowerCase())) {
       for (var i = 0; i < palabraAleatorio.length; i++) {
         if (palabraAleatorio[i].toLowerCase() === letra.toLowerCase()) {
-          resultadoActual = resultadoActual.substr(0, i) + palabraAleatorio[i] + resultadoActual.substr(i + 1)
+          resultadoActual = resultadoActual.substr(0, i) + palabraAleatorio[i] + resultadoActual.substr(i + 1);
         }
       }
 
-      textoResultado.textContent = resultadoActual
+      textoResultado.textContent = resultadoActual;
     }
 
     if (resultadoActual.includes('#') === false) {
@@ -68,10 +68,10 @@
   }
 
   // Indica cuál funciona activa cuando se hace clic en el botón
-  enviarA.addEventListener('click', function() {comprobarAdivinanza(enviarA, 'A')})
-  enviarB.addEventListener('click', function() {comprobarAdivinanza(enviarB, 'B')})
-  enviarC.addEventListener('click', function() {comprobarAdivinanza(enviarC, 'C')})
-  enviarD.addEventListener('click', function() {comprobarAdivinanza(enviarD, 'D')})
+  enviarA.addEventListener('click', function() {comprobarAdivinanza(enviarA, 'A')});
+  enviarB.addEventListener('click', function() {comprobarAdivinanza(enviarB, 'B')});
+  enviarC.addEventListener('click', function() {comprobarAdivinanza(enviarC, 'C')});
+  enviarD.addEventListener('click', function() {comprobarAdivinanza(enviarD, 'D')});
 
   // Declaración de funciona que activa al fin del juego
   function terminarJuego() {

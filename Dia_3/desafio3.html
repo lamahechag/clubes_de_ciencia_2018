@@ -32,57 +32,57 @@
 <script>
   // Declaraciones de variables
 
-  var textoTitulo = document.querySelector('.textoTitulo')
-  var nuevoTextoTitulo = document.querySelector('.nuevoTextoTitulo')
-  var enviarTitulo = document.querySelector('.enviarTitulo')
+  var textoTitulo = document.querySelector('.textoTitulo');
+  var nuevoTextoTitulo = document.querySelector('.nuevoTextoTitulo');
+  var enviarTitulo = document.querySelector('.enviarTitulo');
 
-  var textoCuerpo = document.querySelector('.textoCuerpo')
-  var nuevoTextoCuerpo = document.querySelector('.nuevoTextoCuerpo')
-  var enviarCuerpo = document.querySelector('.enviarCuerpo')
+  var textoCuerpo = document.querySelector('.textoCuerpo');
+  var nuevoTextoCuerpo = document.querySelector('.nuevoTextoCuerpo');
+  var enviarCuerpo = document.querySelector('.enviarCuerpo');
 
-  var enviarTextoTituloRojo = document.querySelector('.enviarTextoTituloRojo')
-  var enviarFondoTituloAzul = document.querySelector('.enviarFondoTituloAzul')
+  var enviarTextoTituloRojo = document.querySelector('.enviarTextoTituloRojo');
+  var enviarFondoTituloAzul = document.querySelector('.enviarFondoTituloAzul');
 
-  var enviarTextoCuerpoColor = document.querySelector('.enviarTextoCuerpoColor')
-  var enviarFondoCuerpoColor = document.querySelector('.enviarFondoCuerpoColor')
+  var enviarTextoCuerpoColor = document.querySelector('.enviarTextoCuerpoColor');
+  var enviarFondoCuerpoColor = document.querySelector('.enviarFondoCuerpoColor');
 
-  var colorTextoCuerpo = document.querySelector('.colorTextoCuerpo')
-  var colorFondoCuerpo = document.querySelector('.colorFondoCuerpo')
+  var colorTextoCuerpo = document.querySelector('.colorTextoCuerpo');
+  var colorFondoCuerpo = document.querySelector('.colorFondoCuerpo');
 
   // Declaraciones de funcionas
   function cambiarTitulo() {
-  	textoTitulo.textContent = nuevoTextoTitulo.value
+  	textoTitulo.textContent = nuevoTextoTitulo.value;
   }
 
   function cambiarCuerpo() {
-  	textoCuerpo.textContent = nuevoTextoCuerpo.value
+  	textoCuerpo.textContent = nuevoTextoCuerpo.value;
   }
 
   function cambiarColorTextoTitulo(color) {
-    textoTitulo.style.color = color
+    textoTitulo.style.color = color;
   }
 
   function cambiarColorFondoTitulo(color) {
-    textoTitulo.style.backgroundColor = color
+    textoTitulo.style.backgroundColor = color;
   }
 
   function cambiarColorTextoCuerpo(color) {
-    textoCuerpo.style.color = color
+    textoCuerpo.style.color = color;
   }
 
   function cambiarColorFondoCuerpo(color) {
-    textoCuerpo.style.backgroundColor = color
+    textoCuerpo.style.backgroundColor = color;
   }
 
   // Indica cuál funciona activa cuando se hace clic en un botón
-  enviarTitulo.addEventListener('click', cambiarTitulo) 
-  enviarCuerpo.addEventListener('click', cambiarCuerpo)
+  enviarTitulo.addEventListener('click', cambiarTitulo);
+  enviarCuerpo.addEventListener('click', cambiarCuerpo);
 
-  enviarTextoTituloRojo.addEventListener('click', function() {cambiarColorTextoTitulo('red')})
-  enviarFondoTituloAzul.addEventListener('click', function() {cambiarColorFondoTitulo('blue')})
+  enviarTextoTituloRojo.addEventListener('click', function() {cambiarColorTextoTitulo('red')});
+  enviarFondoTituloAzul.addEventListener('click', function() {cambiarColorFondoTitulo('blue')});
   
-  enviarTextoCuerpoColor.addEventListener('click', function() {cambiarColorTextoCuerpo(colorTextoCuerpo.value)})
-  enviarFondoCuerpoColor.addEventListener('click', function() {cambiarColorFondoCuerpo(colorFondoCuerpo.value)})
+  enviarTextoCuerpoColor.addEventListener('click', function() {cambiarColorTextoCuerpo(colorTextoCuerpo.value)});
+  enviarFondoCuerpoColor.addEventListener('click', function() {cambiarColorFondoCuerpo(colorFondoCuerpo.value)});
 </script>
 
 </body>

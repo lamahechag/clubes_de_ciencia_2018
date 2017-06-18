@@ -21,32 +21,31 @@
 
 <script>
   // Declaraciones de variables
+  var textoTitulo = document.querySelector('.textoTitulo');
+  var nuevoTextoTitulo = document.querySelector('.nuevoTextoTitulo');
+  var enviarTitulo = document.querySelector('.enviarTitulo');
 
-  var textoTitulo = document.querySelector('.textoTitulo')
-  var nuevoTextoTitulo = document.querySelector('.nuevoTextoTitulo')
-  var enviarTitulo = document.querySelector('.enviarTitulo')
-
-  var enviarTextoTituloRojo = document.querySelector('.enviarTextoTituloRojo')
-  var enviarFondoTituloAzul = document.querySelector('.enviarFondoTituloAzul')
+  var enviarTextoTituloRojo = document.querySelector('.enviarTextoTituloRojo');
+  var enviarFondoTituloAzul = document.querySelector('.enviarFondoTituloAzul');
 
   // Declaraciones de funcionas
   function cambiarTitulo() {
-  	textoTitulo.textContent = nuevoTextoTitulo.value
+  	textoTitulo.textContent = nuevoTextoTitulo.value;
   }
 
   function cambiarColorTextoTitulo(color) {
-    textoTitulo.style.color = color
+    textoTitulo.style.color = color;
   }
 
   function cambiarColorFondoTitulo(color) {
-    textoTitulo.style.backgroundColor = color
+    textoTitulo.style.backgroundColor = color;
   }
 
   // Indica cuál funciona activa cuando se hace clic en un botón
-  enviarTitulo.addEventListener('click', cambiarTitulo) 
+  enviarTitulo.addEventListener('click', cambiarTitulo); 
 
-  enviarTextoTituloRojo.addEventListener('click', function() {cambiarColorTextoTitulo('red')})
-  enviarFondoTituloAzul.addEventListener('click', function() {cambiarColorFondoTitulo('blue')})
+  enviarTextoTituloRojo.addEventListener('click', function() {cambiarColorTextoTitulo('red')});
+  enviarFondoTituloAzul.addEventListener('click', function() {cambiarColorFondoTitulo('blue')});
 </script>
 
 </body>
