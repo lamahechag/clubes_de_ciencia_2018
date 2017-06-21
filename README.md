@@ -11,7 +11,9 @@ password: clubes2017
 
 Para ingresar al servidor de Amazon desde una terminal de Linux:
 
-ssh -i MyKeyPair.pem ec2-user@34.211.110.189
+1) usar ``` chmod 400 mykey.pem ``` para abrir permisos.
+
+2) ssh -i MyKeyPair.pem ec2-user@34.211.110.189
 
 # Dia 1
 Python
