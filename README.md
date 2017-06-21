@@ -3,9 +3,12 @@
 Material para el club de ciencia 2017 : Construye tu sitio web con herramientas computacionales.
 
 # Materiales
-Servidor de Amazon con python y Jupyter notebook de acceso remoto.
+Servidor de Amazon con python y Jupyter notebook de acceso remoto:
+
 http://34.211.110.189:8888/login
-password:clubes2017
+
+password: clubes2017
+
 Para ingresar al servidor de Amazon desde una terminal de Linux:
 
 ssh -i MyKeyPair.pem ec2-user@34.211.110.189
