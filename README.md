@@ -1,19 +1,11 @@
 # Club de ciencia de ciencias de la computación
 
-Material para el club de ciencia 2017 : Construye tu sitio web con herramientas computacionales.
+Material para el club de ciencia 2018 : Introducción a la inteligencia artificial
+
+En los últimos 10 años, los computadores han pasado de ser una calculadora a ser una estructura capaz de aprender y predecir muchas actividades humanas. Esto ha sido posible gracias a mejores supercomputadores e investigación de avanzada en ingeniería y ciencias. El objetivo es explorar las bases de estos descubrimientos implementando un algoritmo capaz de ganar en un juego como triqui.  
 
 # Materiales
-Servidor de Amazon con python y Jupyter notebook de acceso remoto:
 
-http://34.211.110.189:8888/login
-
-password: clubes2017
-
-Para ingresar al servidor de Amazon desde una terminal de Linux:
-
-1) usar ``` chmod 400 mykey.pem ``` para abrir permisos.
-
-2) ssh -i MyKeyPair.pem ec2-user@34.211.110.189
 
 # Dia 1
 Python
@@ -32,22 +24,16 @@ Python
 4) Visualización de Datos con Pandas y Matplotlib.
 
 # Dia 3
-Web
-1) Presentación de conceptos basicos de HTML: la estructura de una pagina, etc.
-2) Introducción a HTML formas
-3) Introducción a Javascript (con comparación a las operaciones de Python)
-4) Continuación de Javascript (query selector, etc., una actividad que cambia el color del fondo)
+
+1) 
+2) 
+3) 
+4) 
 
 # Dia 4
-Web
-1) Presentación/revisión: más operaciones/practica con Javascript (continuando la comparación con Python)
-2-3) Actividad: generación de un juego sencillo
-  (por ejemplo el juego aquí https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/A_first_splash podemos introducir el concepto de búsqueda binaria)
-4) Presentación: Incorporación de los gráficos de Python con HTML en Jupyter
-5) (Opcional) Presentación de otros recursos (librerias, technologias, etc).
+
+1) 
 
 # Dia 5
 Web + Python
-1) Proyecto: preparación de gráficos/sitios de web para presentar a los otros clubes?
-2) Continuación del proyecto?
-3) Continuación del proyecto?
+1) 
