@@ -8,6 +8,19 @@ En los últimos 10 años, los computadores han pasado de ser una calculadora a s
 
 
 # Dia 1
+Introducción:
+1) Videos de aprendizaje reforzado: 
+* Google Deep Mind (Simulación)
+  * Aprendizaje de juegos: https://www.youtube.com/watch?v=M40rN7afngY
+  * AlphaGo: https://www.youtube.com/watch?v=tCpf5wDr0UE
+  * Aprender a caminar: https://www.youtube.com/watch?v=faDKMMwOS2Q
+* Boston Dynamics (Realidad)
+  * Primeros Prototipos: https://www.youtube.com/watch?v=wE3fmFTtP9g
+  * Navegación Autónoma: https://www.youtube.com/watch?v=Ve9kWX_KXus
+  * Esquivar obstáculos: https://www.youtube.com/watch?v=fRj34o4hN4I
+  * Trabajo en equipo: https://www.youtube.com/watch?v=fUyU3lKzoio
+  * Robusto: https://youtu.be/aFuA50H9uek
+
 Python
 1) Presentación: Que es la programación, las ciencias de la computación y para que sirven.
 2) Presentacion de Python y Jupyter Notebook.
@@ -40,3 +53,5 @@ Python
 2) Crear el Poster (Irlo creando de a poco?)
 
  
+# Poster
+https://docs.google.com/presentation/d/1X2W_ayVzR0Yi6jzPTYcKtLZtBP4C3Ox01IGXcIDHHC4/edit?usp=sharing
