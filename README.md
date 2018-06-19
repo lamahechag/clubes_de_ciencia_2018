@@ -53,3 +53,5 @@ Python
 2) Crear el Poster (Irlo creando de a poco?)
 
  
+# Poster
+https://docs.google.com/presentation/d/1X2W_ayVzR0Yi6jzPTYcKtLZtBP4C3Ox01IGXcIDHHC4/edit?usp=sharing
