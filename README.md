@@ -55,4 +55,4 @@ Python
 
  
 # Poster
-https://docs.google.com/presentation/d/1X2W_ayVzR0Yi6jzPTYcKtLZtBP4C3Ox01IGXcIDHHC4/edit?usp=sharing
+https://docs.google.com/presentation/d/1zyg0BbJFSHRcgSOi9qcnvOclDWGhi8WAtewOBiMaBLQ/edit?usp=sharing
