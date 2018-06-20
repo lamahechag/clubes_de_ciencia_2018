@@ -37,20 +37,21 @@ Python
 4) Visualización de Datos con Pandas y Matplotlib.
 
 # Dia 3
-0) Explorar más Pandas?
-1) Explorar colab?
-2) Explorar el aprendizaje reforzado
-3) link: https://colab.research.google.com/drive/1_AOWDJ9RqSYoa7pc_WppQ-EFO77Qk5yB
+1) Explorar más Pandas
+2) Explorar colab
+3) Explorar el aprendizaje reforzado
+4) link:https://colab.research.google.com/notebook#fileId=1_AOWDJ9RqSYoa7pc_WppQ-EFO77Qk5yB&offline=true&sandboxMode=true
+
 
 # Dia 4
 1) Hablar de clases y documentacion del codigo
 2) Implementar el aprendizaje del triqui
-3) link: https://colab.research.google.com/drive/1gK90n7KJF2_cvoaOuTbEL1NmgGwVODCE
+3) link: https://colab.research.google.com/notebook#fileId=1gK90n7KJF2_cvoaOuTbEL1NmgGwVODCE&offline=true&sandboxMode=true
 
 # Dia 5 
 
-1) Instrumentar el triqui para generar estadísticos y analizarlos con Pandas?
-2) Crear el Poster (Irlo creando de a poco?)
+1) Instrumentar el triqui para generar estadísticos y analizarlos con Pandas
+2) Crear el Poster (Irlo creando de a poco)
 
  
 # Poster
