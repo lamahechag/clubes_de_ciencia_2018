@@ -46,7 +46,12 @@ Python
 # Dia 4
 1) Hablar de clases y documentacion del codigo
 2) Implementar el aprendizaje del triqui
-3) link: https://colab.research.google.com/notebook#fileId=1gK90n7KJF2_cvoaOuTbEL1NmgGwVODCE&offline=true&sandboxMode=true
+3) links:
+* El Jugador: https://colab.research.google.com/drive/10OzbsaeqjlQvBqlVYw6wtY8Sp-2MEhJZ
+* El Juego: https://colab.research.google.com/drive/1gO3CO9EHyPdc9OUwnJztTJEw1vZLzsK7
+* La Optimizacion: https://colab.research.google.com/drive/1mqQOx1ewRP3I95l-AeGVXywbu0qJeW3Z
+* El Juego Interactivo: https://colab.research.google.com/drive/1JDJGVglKoKx7ITah8FU0I9qamNhGEYHc
+* El Juego Final: https://colab.research.google.com/drive/1DMWXKrhVjhTDZq3hBP3BjzCOlxAu3jjY
 
 # Dia 5 
 
